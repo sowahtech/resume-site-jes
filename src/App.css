@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.resume-site{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.resume-site-left{
+  width: 50vw;
+  height: 40vh;
+  background-color:whitesmoke;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.resume-site-right{
+  width: 50vw;
+  height: 40vh;
+  background-color: #33373d;
 }
+
+.nav-bar{
+  background-color: #b1b6bd;
+  width: 80vw;
+  height: 10vh;
+  border-radius: 5vh;
+  z-index: 1;
+  margin-left: -40vw;
+  margin-right: -40vw;
+  margin-top: -25vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+
+.logo{
+	color: orangered;
+	transform: scale(2);
+}
+
+span:hover{
+	color: orangered;
+}
+
+i:hover{
+	color: orangered;
+	font-family: 'Beau Rivage', cursive;
+}
+
+.download-cv{
+	background: orangered;
+	color: white;
+	border: none;
+	border-radius: 25px;
+	width: 12vw;
+	height: 6vh;
+	font-size: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Comfortaa:wght@400;500&family=Ubuntu+Condensed&display=swap');
